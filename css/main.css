@@ -1,25 +1,15 @@
 /* Main elements */
-body{
+body {
 
-	font-family: 'Lucida Grande', sans-serif;
+	font: 16px/2 'Lucida Grande', sans-serif;
 
-	margin-top: 25px;
-
-}
-
-p {
-
-	line-height: 2;
-
-	font-size: 16px;
+	margin: 25px 0 0 0;
 
 }
 
 li {
 
-	line-height: 31px;
-
-	font-size: 16px;
+	font: 16px/31px 'Lucida Grande', sans-serif;
 
 	padding: 1px 0 0 1px;
 
@@ -28,11 +18,11 @@ li {
 /* Titles */
 .main-title {
 
-	color: #666666;
+	color: #666;
 
-	font-size: 48px;
+	font: 48px/100% 'Lucida Grande', sans-serif;
 
-	margin-bottom: 30px;
+	margin: 20px 0 32px 0;
 
 }
 
@@ -40,28 +30,20 @@ li {
 
 	color: #f07c17;
 
-	font-weight: bold;
+	font: bold 25px/100% 'Lucida Grande', sans-serif;
 
-	font-size: 24px;
+	margin: 0 0 10px 0;
 
-	margin-top: 0;
-
-	padding-bottom: 19px;
-
-}
-
-.feature-header {
-
-	padding-left: 1px;
+	padding: 0 0 19px 0;
 
 }
 
 /*  Side bar */
 .feature {
 
-	outline: 1px solid #cccccc;
+	outline: 1px solid #ccc;
 
-	line-height: 30px;
+	font: 30px/100% 'Lucida Grande', sans-serif;
 
 	padding: 30.5px 2px 31px 29.5px;
 
